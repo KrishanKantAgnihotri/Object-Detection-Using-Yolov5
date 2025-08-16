@@ -1,0 +1,23 @@
+names:
+- road
+- sidewalk
+- building
+- wall
+- fence
+- pole
+- traffic light
+- traffic sign
+- vegetation
+- terrain
+- sky
+- person
+- rider
+- car
+- truck
+- bus
+- train
+- motorcycle
+- bicycle
+nc: 19
+train: C:/Users/Dell/Object-Detection/Object-Detection-Using-Yolov5/idd20k_lite/leftImg8bit/train
+val: C:/Users/Dell/Object-Detection/Object-Detection-Using-Yolov5/idd20k_lite/leftImg8bit/val
