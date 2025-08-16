@@ -44,7 +44,7 @@ def convert_annotation(json_path, image_path, label_path):
 
 def process_split(split):
     gt_dir = os.path.join("idd20k_lite", "gtFine", split)
-    img_dir = os.path.join("idd20k_lite", "leftImg8bit", split)
+    img_dir = os.path.join("idd20k_lite", "images", split)
     label_dir = os.path.join("idd20k_lite", "labels", split)
     for subfolder in os.listdir(img_dir):
         img_subdir = os.path.join(img_dir, subfolder)
