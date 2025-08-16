@@ -22,13 +22,11 @@ def prepare_data():
     val_labels = os.path.join(gtFine, "val")
 
     # Class names for IDD20K (example, update as per actual dataset)
-    # For demo, using a few common classes. Replace with actual classes if available.
     names = [
         "road", "sidewalk", "building", "wall", "fence", "pole", "traffic light", "traffic sign",
         "vegetation", "terrain", "sky", "person", "rider", "car", "truck", "bus", "train", "motorcycle", "bicycle"
     ]
 
-    # Generate data.yaml for YOLOv5
     data_yaml = {
         'train': train_images.replace('\\', '/'),
         'val': val_images.replace('\\', '/'),

@@ -24,4 +24,4 @@ def train_yolov5(data_yaml_path):
                '--name', 'idd20k_yolov5',
                '--exist-ok']
     print('Running YOLOv5 training command:', ' '.join(command))
-    subprocess.run(command, check=True)
+    subprocess.run(command)
