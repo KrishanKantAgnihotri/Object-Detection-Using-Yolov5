@@ -19,5 +19,5 @@ names:
 - motorcycle
 - bicycle
 nc: 19
-train: C:/Users/Dell/Object-Detection/Object-Detection-Using-Yolov5/idd20k_lite/images/train
-val: C:/Users/Dell/Object-Detection/Object-Detection-Using-Yolov5/idd20k_lite/images/val
+train: C:/Users/Dell/py-test/Object-Detection-Using-Yolov5/idd20k_lite/images/train
+val: C:/Users/Dell/py-test/Object-Detection-Using-Yolov5/idd20k_lite/images/val
